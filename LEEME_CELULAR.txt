@@ -1,0 +1,19 @@
+MI COMERCIO — VERSIÓN CELULAR
+
+1) PWA
+- Subí esta carpeta a un hosting HTTPS (por ejemplo GitHub Pages).
+- Abrí la URL desde Chrome en Android.
+- Elegí “Instalar aplicación” / “Agregar a pantalla de inicio”.
+- La app guarda los datos localmente en ese celular.
+
+2) ANDROID
+- La carpeta android-app es un proyecto Android Studio que abre la misma app localmente dentro de un WebView.
+- Abrí android-app en Android Studio, esperá la sincronización de Gradle y ejecutá Run.
+- Para generar APK: Build > Build APK(s).
+
+3) TRANSFERENCIA
+- Desde Configuración exportá el JSON para vendedor.
+- El vendedor lo importa en su teléfono.
+- Para devolverte cambios, el vendedor exporta y vos importás/combinas.
+
+NOTA: La versión es local, sin Supabase, Appwrite ni Google Drive.

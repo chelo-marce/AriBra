@@ -1,0 +1,26 @@
+MI COMERCIO — PUBLICAR GRATIS EN GITHUB PAGES
+
+1) Entrá a https://github.com/ y creá/iniciá sesión en tu cuenta.
+2) Creá un repositorio nuevo, por ejemplo: mi-comercio.
+3) Subí TODOS los archivos de esta carpeta directamente a la raíz del repositorio.
+   IMPORTANTE: index.html debe quedar en la raíz, no dentro de otra carpeta.
+4) En GitHub abrí Settings -> Pages.
+5) En "Build and deployment" elegí "Deploy from a branch".
+6) Seleccioná la rama "main" y la carpeta "/ (root)". Guardá.
+7) GitHub te dará una dirección parecida a:
+   https://TUUSUARIO.github.io/mi-comercio/
+8) Abrí esa dirección desde Chrome en el celular.
+9) Elegí "Agregar a pantalla de inicio" / "Instalar aplicación".
+
+HTTPS:
+GitHub Pages publica el sitio por HTTPS. No necesitás comprar un dominio para usar la dirección github.io.
+
+DATOS:
+La aplicación NO usa nube. Los datos se guardan localmente en cada dispositivo.
+Usá Exportar / Importar para pasar información entre tu PC y los vendedores.
+
+PWA:
+manifest.webmanifest y sw.js ya están incluidos. El Service Worker permite que la app siga funcionando offline una vez que fue cargada/instalada.
+
+IMPORTANTE:
+No subas al repositorio archivos con datos de clientes, facturas o información privada. La carpeta de la aplicación es pública en GitHub Pages; los datos de la app quedan en el almacenamiento local del navegador.
